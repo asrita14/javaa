@@ -1,10 +1,10 @@
 class Point{
     int x; int y;
     void setX( int x){
-        x = (x> 79 ? 79 : (x < 0 ? 0 : x)); 
+        this.x = (x> 79 ? 79 : (x < 0 ? 0 : x)); 
     }
     void setY( int y){
-        y = (y> 79 ? 79 : (y < 0 ? 0 : y));
+        this.y = (y> 79 ? 79 : (y < 0 ? 0 : y));
     }
     int getX(){
         return x;}
